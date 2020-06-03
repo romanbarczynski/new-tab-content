@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "New Tab Content",
+    "version": "0.1",
+    "description": "Puts custom html in new tab window, for you to customize things.\n\n\nIcon from: Breathe 0.51.2 (from the \"Actions\" group) icons\nSource: https://launchpad.net/ubuntu/+source/breathe-icon-theme\nAuthor: Breathe Icon Team: Sebastian Porta, Cory Kontros, Andrew Starr-Bochicchio\n",
+    "icons": {
+        "48": "new-tab-content.svg"
+    },
+    "permissions": ["storage"],
+    "chrome_url_overrides": {
+        "newtab": "new-tab.html"
+    },
+    "options_ui": {
+        "page": "options.html",
+        "browser_style": true
+      }
+}
